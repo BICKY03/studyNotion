@@ -157,7 +157,7 @@ const[accountType,setAccountType]=useState("student");
 
           <input 
             required
-            type={showPassword?("text"):("password")}
+            type={confirmShowPassword?("text"):("password")}
             name="confirmPassword"
             onChange={changeHandler}
             placeholder='Enter Password'
